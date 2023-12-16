@@ -45,12 +45,10 @@
     border-radius: 50%
 }
 
-.logo span a{
-    color: #333333;
-}
-
+.logo span:hover,
 .logo span a:hover{
     color: #ffffff;
+    transform: scale(0.95);
 }
 
 .nav-links{
