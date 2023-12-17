@@ -42,12 +42,12 @@
     font-size: 2rem;
     padding: 10px;
     background-color: #7843e9;
+    transition: 0.7s ease-in-out;
     border-radius: 50%
 }
 
 .logo span:hover,
 .logo span a:hover{
-    color: #ffffff;
     transform: scale(0.95);
 }
 
@@ -98,4 +98,23 @@ li a::after{
 li a:hover::after{
     transform: scale(1, 1);
     transform-origin: top left;
+}
+
+.navbar-container .hamburger{
+    display: none;
+    cursor: pointer;
+    background-color: #7843e9;
+    transition: 0.7s ease-in-out;
+    padding: 15px 15px;
+    border-radius: 50%;
+}
+
+.bar {
+    display: block;
+    width: 20px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #333333;
 }
