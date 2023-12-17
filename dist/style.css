@@ -131,3 +131,16 @@ li a:hover::after{
     display: none;
     transition: height 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
+
+.dropdown-menu.open{
+    height: 210px;
+    border-bottom: 2px solid;
+    border-top: 0px;
+}
+
+.dropdown-menu li{
+    padding: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
