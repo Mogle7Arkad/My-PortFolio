@@ -9,13 +9,13 @@
 }
 
 .nav-link-wrapper{
-    padding: 2rem 1.5rem;
+    padding: 1.5rem 1.5rem;
 }
 
 .navigation-bar{
     position: relative;
-    padding: 0 1.5rem;
-    height: 90px;
+    padding: .5rem 1.5rem;
+    border-bottom: 1px solid #eee;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,7 +31,7 @@
 }
 
 .navbar-container .logo{
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 700;
     border-radius: 5px;
     display: flex;
@@ -39,7 +39,7 @@
 }
 
 .logo span {
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 10px;
     background-color: #7843e9;
     transition: 0.7s ease-in-out;
@@ -133,14 +133,15 @@ li a:hover::after{
 }
 
 .dropdown-menu.open{
-    height: 210px;
-    border-bottom: 2px solid;
+    height: 215px;
+    border-bottom: 1px solid #eee;
     border-top: 0px;
 }
 
 .dropdown-menu li{
     padding: 0.9rem;
     display: flex;
+    border-bottom: 1px solid #eee;
     align-items: center;
     justify-content: center;
 }
