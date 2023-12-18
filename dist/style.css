@@ -39,7 +39,7 @@
 }
 
 .logo span {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     padding: 10px;
     background-color: #7843e9;
     transition: 0.7s ease-in-out;
@@ -103,7 +103,6 @@ li a:hover::after{
 .navbar-container .hamburger{
     display: none;
     cursor: pointer;
-    background-color: #7843e9;
     transition: 0.7s ease-in-out;
     padding: 15px 15px;
     border-radius: 50%;
@@ -160,11 +159,15 @@ li a:hover::after{
     }
 
     .hamburger.active .bar:nth-child(1) {
-        transform: translateY(4px) rotate(35deg);
+        transform: translateY(8px) rotate(45deg);
     }
 
     .hamburger.active .bar:nth-child(2) {
-        transform: translateY(-4px) rotate(-35deg);
+        opacity: 0;;
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
     }
 
     .dropdown-menu{
