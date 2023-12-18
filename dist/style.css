@@ -155,6 +155,14 @@ li a:hover::after{
     padding-top: 80px;
 }
 
+.home-hero-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4rem;
+    letter-spacing: 3px;
+}
+
 @media(max-width: 992px){
 
     .nav-links{
