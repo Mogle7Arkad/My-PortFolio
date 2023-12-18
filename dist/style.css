@@ -172,6 +172,16 @@ li a:hover::after{
     display: flex;
 }
 
+.home-hero-img{
+    padding-top: 3rem;
+}
+
+.home-hero-img img{
+    height: 320px;
+    width: 320px;
+    border-radius: 50%;
+}
+
 @media(max-width: 992px){
 
     .nav-links{
