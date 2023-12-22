@@ -189,6 +189,16 @@ li a:hover::after{
     border-radius: 50%;
 }
 
+.about{
+    background: #fafafa;
+    padding: 5rem 0;
+}
+
+.main-container{
+    margin: auto;
+    width: 92%;
+}
+
 @media(max-width: 992px){
 
     .nav-links{
