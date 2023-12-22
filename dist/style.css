@@ -332,6 +332,19 @@ li a:hover::after{
     color: black;
 }
 
+.details-btn{
+    background: url(./assets/common-bg.svg);
+    opacity: 1;
+    color: black;
+    padding: 5px 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    font-weight: 500;
+    border: 1px solid black;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
 @media(max-width: 992px){
 
     .nav-links{
