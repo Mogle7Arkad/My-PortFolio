@@ -311,6 +311,27 @@ li a:hover::after{
     overflow: hidden;
 }
 
+.project-row-content{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: -100%;
+    position: absolute;
+    background: url(./assets/common-bg.svg);
+    opacity: .8;
+    backdrop-filter: blur(5px);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+
+.project-row-content-title{
+    color: black;
+}
+
 @media(max-width: 992px){
 
     .nav-links{
