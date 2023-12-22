@@ -285,6 +285,17 @@ li a:hover::after{
     color: #666;
 }
 
+.projects{
+    height: 100%;
+    padding: 5rem 0;
+}
+
+.projects-content{
+    display: grid;
+    grid-template-columns: repeat(3,minmax(0, 1fr));
+    gap: 1.5rem;
+}
+
 @media(max-width: 992px){
 
     .nav-links{
