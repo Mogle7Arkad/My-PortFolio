@@ -373,6 +373,26 @@ li a:hover::after{
     line-height: 1.6;
 }
 
+.btn-wrapper{
+    width: 100%;
+    text-align: center;
+}
+
+.btn{
+    padding: 10px 15px;
+    background: #7843e9;
+    color: #fff;
+    font-weight: 600;
+    transition: all .3s;
+}
+
+.btn:hover{
+    padding: 15px 20px;
+    border: 2px #7843e9 solid ;
+    background: #fff;
+    color: #7843e9;
+}
+
 @media(max-width: 992px){
 
     .nav-links{
