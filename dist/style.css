@@ -370,8 +370,7 @@ li a:hover::after{
     padding: 0 4rem;
     max-width: 75rem;
     margin: auto;
-    line-height: 1.6;
-}
+    line-height: 1.6;}
 
 .btn-wrapper{
     width: 100%;
@@ -391,6 +390,11 @@ li a:hover::after{
     border: 2px #7843e9 solid ;
     background: #fff;
     color: #7843e9;
+}
+
+.footer{
+    padding: 0 4rem;
+    background-color: #111;
 }
 
 @media(max-width: 992px){
