@@ -357,6 +357,22 @@ li a:hover::after{
     padding: 5rem 0;
 }
 
+.contact-content{
+    margin-bottom: 4rem;
+}
+
+.contact-content-main{
+    display: block;
+    text-align: center;
+    color: #555;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0 4rem;
+    max-width: 75rem;
+    margin: auto;
+    line-height: 1.6;
+}
+
 @media(max-width: 992px){
 
     .nav-links{
