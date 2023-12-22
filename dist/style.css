@@ -415,6 +415,20 @@ li a:hover::after{
     font-size: 1rem;
 }
 
+.footer-desc,
+.social-links{
+    color: #eee;
+    margin-top: 1.5rem;
+    font-size: .7rem;
+    line-height: 1.7;
+}
+
+.social-link img{
+    width: 20px;
+    height: 20px;
+    color: #fafafa;
+}
+
 @media(max-width: 992px){
 
     .nav-links{
