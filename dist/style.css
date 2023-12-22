@@ -345,6 +345,10 @@ li a:hover::after{
     cursor: pointer;
 }
 
+.projects-row:hover .project-row-content{
+    left: 0;
+}
+
 @media(max-width: 992px){
 
     .nav-links{
