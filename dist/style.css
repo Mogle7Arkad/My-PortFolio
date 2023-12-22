@@ -342,6 +342,12 @@ li a:hover::after{
     cursor: pointer;
 }
 
+.details-btn:hover{
+    font-weight: 600;
+    border: 2px solid #7843e9;
+    color: #7843e9;
+}
+
 .projects-row:hover .project-row-content{
     left: 0;
 }
