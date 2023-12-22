@@ -296,6 +296,21 @@ li a:hover::after{
     gap: 1.5rem;
 }
 
+.projects-row{
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    height: 250px;
+}
+
+.project-row-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
 @media(max-width: 992px){
 
     .nav-links{
