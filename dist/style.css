@@ -5,8 +5,8 @@
     list-style: none;
     text-decoration: none;
     color: #333333;
-    letter-spacing: 1px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    font-family: 'Poppins';
 }
 
 .header{
@@ -16,7 +16,7 @@
     display: flex;
     padding: .5rem 4rem;
     width: 100%;
-    height: 80px;
+    height: 60px;
     z-index: 1000;
     box-shadow: 0px 0px 10px black;
 } 
@@ -37,7 +37,7 @@
 }
 
 .logo span {
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 10px;
     background-color: #7843e9;
     transition: 0.7s ease-in-out;
@@ -45,6 +45,7 @@
 }
 
 .logo span a{
+    font-size: 1.5rem;
     color: #fff;
 }
 
@@ -69,8 +70,8 @@ a{
 }
 
 li a{
-    font-size: .7rem;
-    font-weight: 700;
+    font-size: 1rem;
+    font-weight: 500;
     padding: 0.3rem 0.5rem;
     text-align: center;
     transition: all 0.3s;
@@ -81,6 +82,7 @@ li a{
 
 li a:hover{
     color: #ffffff;
+    font-weight: 700;
     transition: 0.3s ease all;
 }
 
@@ -127,18 +129,18 @@ li a:hover::after{
     position: absolute;
     margin-top: 1rem;
     right: 0px;
-    top: 60px;
+    top: 48px;
     width: 300px;
     height: 0;
     background-color: #fff;
     backdrop-filter: blur(15px);
     overflow: hidden;
     display: none;
-    transition: height 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: 0.3s;
 }
 
 .dropdown-menu.open{
-    height: 13.07rem;
+    height: 16.05rem;
     border-top: 1px solid #eee;
     border-top: 0px;
 }
@@ -155,7 +157,7 @@ li a:hover::after{
     color: #fff;
     background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url(./assets/common-bg.svg);
     background-position: center;
-    height: 120vh;
+    height: 115vh;
     position: relative;
     padding-top: 80px;
 }
@@ -205,7 +207,7 @@ li a:hover::after{
 .about-heading-main{
     display: block;
     font-size: 1.8rem;
-    font-weight: 600;
+    font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 3px;
     text-align: center;
@@ -255,7 +257,7 @@ li a:hover::after{
 }
 
 .about-content-title{
-    font-weight: 600;
+    font-weight: 800;
     font-size: 1.5rem;
     margin-bottom: 2rem;
 }
@@ -316,7 +318,7 @@ li a:hover::after{
     left: -100%;
     position: absolute;
     background: url(./assets/common-bg.svg);
-    opacity: .8;
+    opacity: .9;
     backdrop-filter: blur(5px);
     border-radius: 4px;
     display: flex;
@@ -328,24 +330,41 @@ li a:hover::after{
 
 .project-row-content-title{
     color: black;
+    margin-bottom: 15px;
 }
 
-.details-btn{
-    background: url(./assets/common-bg.svg);
+.demo-btn,
+.repo-btn{
+    background: #7843e9;
     opacity: 1;
     color: black;
+    margin: 5px;
     padding: 5px 10px;
     font-size: 1rem;
     font-weight: 500;
-    border: 1px solid black;
+    border: 0;
     margin-top: 1rem;
     cursor: pointer;
 }
 
-.details-btn:hover{
+.demo-btn{
+    border: 2px solid #7843e9;
+    background: transparent;
+    color: #7843e9;
+}
+
+.repo-btn:hover{
     font-weight: 600;
     border: 2px solid #7843e9;
+    background: transparent;
     color: #7843e9;
+}
+
+.demo-btn:hover{
+    background: #7843e9;
+    color: black;
+    font-weight: 600;
+    padding: 3px 7px;
 }
 
 .projects-row:hover .project-row-content{
