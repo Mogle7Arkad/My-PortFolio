@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
     <link rel="stylesheet" href="style.css">
     <script src="main.js" defer></script>
     <title>Ali George</title>
@@ -10,45 +11,190 @@
 <body>
     <div class="page-wrapper">
         <header class="header">
-            <div class="navigation-bar">
-                <div class="navbar-container">
-                    <div class="logo"><span><a href="name">G</a></span>EORGE</div>
-                    <ul class="nav-links">
-                        <li class="nav-link-wrapper">
-                            <a href="about" class="nav-link" id="about">ABOUT</a>
-                        </li>
-                        <li class="nav-link-wrapper">
-                            <a href="work" class="nav-link" id="work">WORK</a>
-                        </li>
-                        <li class="nav-link-wrapper">
-                            <a href="contact" class="nav-link" id="contact">CONTACT</a>
-                        </li>
-                        <li class="nav-link-wrapper">
-                            <a href="resume" class="nav-link" id="resume">RESUME</a>
-                        </li>
-                    </ul>
-                    <div class="hamburger">
-                        <span class = "bar"></span>
-                        <span class = "bar"></span>
-                        <span class = "bar"></span>
-                    </div>
-                </div>
-                <ul class="dropdown-menu">
-                    <li class="nav-item">
-                        <a href="about" class="nav-link" id="about">About</a>
+            <div class="navbar-container">
+                <div class="logo"><span><a href="name">G</a></span>EORGE</div>
+                <ul class="nav-links">
+                    <li class="nav-link-wrapper">
+                        <a href="about" class="nav-link" id="about">ABOUT</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="work" class="nav-link" id="work">Work</a>
+                    <li class="nav-link-wrapper">
+                        <a href="work" class="nav-link" id="work">WORK</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="contact" class="nav-link" id="contact">Contact</a>
+                    <li class="nav-link-wrapper">
+                        <a href="contact" class="nav-link" id="contact">CONTACT</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="resume" class="nav-link" id="resume">Resume</a>
+                    <li class="nav-link-wrapper">
+                        <a href="resume" class="nav-link" id="resume">RESUME</a>
                     </li>
                 </ul>
+                <div class="hamburger">
+                    <span class = "bar"></span>
+                    <span class = "bar"></span>
+                    <span class = "bar"></span>
+                </div>
             </div>
+            <ul class="dropdown-menu">
+                <li class="nav-item">
+                    <a href="about" class="nav-link" id="about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="work" class="nav-link" id="work">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact" class="nav-link" id="contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="resume" class="nav-link" id="resume">Resume</a>
+                </li>
+            </ul>
         </header>
+        <main class="main-body">
+            <div class="home-hero">
+                <div class="home-hero-content">
+                    <h1 class="home-hero-heading">HEY, I'M GEORGE ALI</h1>
+                    <div class="home-hero-info">
+                        <p>A Frontend Developer growing one step at a time. </p>
+                    </div>
+                    <div class="home-hero-img"><img src="./assets/hero.jpg" alt=""></div>
+                </div>
+            </div>
+            <div id="about" class="about">
+                <div class="main-container">
+                    <h2 class="about-heading">
+                        <span class="about-heading-main">ABOUT ME</span>
+                        <span class="about-heading-sub">Here you will find more information about me, what I do, and my current skills and tools, mostly in terms of programming.</span>
+                    </h2>
+                    <div class="about-content">
+                        <div class="about-content-main">
+                            <h3 class="about-content-title">Get to know me</h3>
+                            <div class="about-content-details">
+                                <p class="about-content-details-p">
+                                    I'm a <strong>Frontend Web Developer</strong> aiming at building the front-end of Websites and web Applications that will help leads to success of the product. See some of my work at the <strong>Project</strong> section. 
+                                </p>
+                                <p class="about-content-details-p">
+                                    Fueled by love for growth, I'm currently exploring algorithms while improving my skills in <strong>CSS</strong>, <strong>Javascript</strong> and <strong>React</strong>. With <strong>Node.js</strong> in view as well as other <strong>Languages</strong> and <strong>Frameworks</strong> as par the profession demands. My goal is to make a meaningful impact in the Front-end development landscape and take on exciting challenges while growing.
+                                </p>
+                                <p class="about-content-details-p">
+                                </p>
+                            </div>
+                        </div>
+                        <div class="about-content-skills">
+                            <h3 class="about-content-title">Skills</h3>
+                            <div class="skills">
+                                <div class="skills-skill">HTML</div>
+                                <div class="skills-skill">CSS</div>
+                                <div class="skills-skill">javascript</div>
+                                <div class="skills-skill">GIT</div>
+                                <div class="skills-skill">Github</div>
+                                <div class="skills-skill">Terminal</div>
+                                <div class="skills-skill">Responsive Design</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="projects" class="projects">
+                <div class="main-container">
+                    <h2 class="about-heading">
+                        <span class="about-heading-main">PROJECT</span>
+                        <span class="about-heading-sub">Here you will find mostly some of my personal projects and group project with each project containing it's case study.</span>
+                    </h2>
+                    <div class="projects-content">
+                        <div class="projects-row">
+                            <img src="./assets/my-dashboard.png" alt="" class="project-row-img">
+                            <div class="project-row-content">
+                                <h2 class="project-row-content-title">Dashboard</h2>
+                                <div class="btn-wrapper">
+                                    <button class="repo-btn">Repo</button>
+                                    <button class="demo-btn">Live Demo</button>
+                                </div>                            
+                            </div>
+                        </div>
+                        <div class="projects-row">
+                            <img src="./assets/Screenshot 2023-12-22 001629.png" alt="" class="project-row-img">
+                            <div class="project-row-content">
+                                <h2 class="project-row-content-title">Dashboard</h2>
+                                <div class="btn-wrapper">
+                                    <button class="repo-btn">Repo</button>
+                                    <button class="demo-btn">Live Demo</button>
+                                </div>                                                       
+                            </div>
+                        </div>
+                        <div class="projects-row">
+                            <img src="./assets/fahReading.png" alt="" class="project-row-img">
+                            <div class="project-row-content">
+                                <h2 class="project-row-content-title">Dashboard</h2>
+                                <div class="btn-wrapper">
+                                    <button class="repo-btn">Repo</button>
+                                    <button class="demo-btn">Live Demo</button>
+                                </div>                                                        
+                            </div>
+                        </div>
+                        <div class="projects-row">
+                            <img src="./assets/active3.png" alt="" class="project-row-img">
+                            <div class="project-row-content">
+                                <h2 class="project-row-content-title">TopMovies</h2>
+                                <div class="btn-wrapper">
+                                    <button class="repo-btn">Repo</button>
+                                    <button class="demo-btn">Live Demo</button>
+                                </div>                                                        
+                            </div>
+                        </div>
+                        <div class="projects-row">
+                            <img src="./assets/Screenshot 2023-12-22 001813.png" alt="" class="project-row-img">
+                            <div class="project-row-content">
+                                <h2 class="project-row-content-title">Weathercast</h2>
+                                <div class="btn-wrapper">
+                                    <button class="repo-btn">Repo</button>
+                                    <button class="demo-btn">Live Demo</button>
+                                </div>                            
+                            </div>
+                        </div>
+                        <div class="projects-row">
+                            <img src="./assets/my-dashboard.png" alt="" class="project-row-img">
+                            <div class="project-row-content">
+                                <h2 class="project-row-content-title">Dashboard</h2>
+                                <div class="btn-wrapper">
+                                    <button class="repo-btn">Repo</button>
+                                    <button class="demo-btn">Live Demo</button>
+                                </div>                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="main-container">
+                    <h2 class="about-heading">
+                        <span class="about-heading-main">CONTACT ME</span>
+                    </h2>
+                    <div class="contact-content-main about-heading-sub">
+                        <p class="contact-content"> 
+                            I'm very much open to <strong>Job</strong> opportunities especially where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience, <strong>PLEASE</strong> don't hesitate to <strong>contact</strong> me and I will get back to you as soon as possible.
+                        </p>
+                        <p class="contact-btn-wrapper"><a href="" class="btn">CONTACT ME</a></p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <div class="footer">
+            <div class="footer-main">
+                <div class="footer-left">
+                    <h2 class="footer-header">GEORGE ALI</h2>
+                    <p class="footer-desc">A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product.</p>
+                </div>
+                <div class="footer-socials">
+                    <h2 class="footer-header">SOCIALS</h2>
+                    <ul class="social-links">
+                        <a href="" class="social-link"><img src="./assets/icons8-linkedin-32.png" alt="linkedin"></a>
+                        <a href="" class="social-link"><img src="./assets/icons8-github-64.png" alt="github"></a>
+                        <a href="" class="social-link"><img src="./assets/icons8-twitterx-50.png" alt="x"></a>
+                        <a href="" class="social-link"><img src="./assets/icons8-dribble-64.png" alt="dribble"></a>
+                    </ul>
+                </div>
+            </div>
+            <p class="footer-base">&copy;2023, All Rights Reserved.<span><a href="">GEORGE ALI</a></p>
+        </div>
     </div>
 </body>
 </html>
