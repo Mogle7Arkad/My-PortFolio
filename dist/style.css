@@ -337,7 +337,7 @@ li a:hover::after{
 .repo-btn{
     background: #7843e9;
     opacity: 1;
-    color: black;
+    color: #fff;
     margin: 5px;
     padding: 5px 10px;
     font-size: 1rem;
@@ -362,7 +362,7 @@ li a:hover::after{
 
 .demo-btn:hover{
     background: #7843e9;
-    color: black;
+    color: #fff;
     font-weight: 600;
     padding: 3px 7px;
 }
