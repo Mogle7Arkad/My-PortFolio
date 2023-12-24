@@ -129,7 +129,7 @@ li a:hover::after{
     position: absolute;
     margin-top: 1rem;
     right: 0px;
-    top: 48px;
+    top: 45px;
     width: 300px;
     height: 0;
     background-color: #fff;
@@ -140,7 +140,7 @@ li a:hover::after{
 }
 
 .dropdown-menu.open{
-    height: 16.05rem;
+    height: 15.85rem;
     border-top: 1px solid #eee;
     border-top: 0px;
 }
@@ -157,7 +157,7 @@ li a:hover::after{
     color: #fff;
     background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url(./assets/common-bg.svg);
     background-position: center;
-    height: 115vh;
+    height: 125vh;
     position: relative;
     padding-top: 80px;
 }
@@ -185,8 +185,8 @@ li a:hover::after{
 }
 
 .home-hero-img img{
-    height: 270px;
-    width: 270px;
+    height: 300px;
+    width: 300px;
     border-radius: 50%;
 }
 
@@ -492,6 +492,9 @@ li a:hover::after{
 
     .dropdown-menu{
         display: block;
+        left: 0rem;
+        width: unset;
+        border-left: 0px;
     }
     .dropdown-menu.open{
         border-top: 1px #eee solid;
