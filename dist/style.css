@@ -30,15 +30,14 @@
 
 .navbar-container .logo{
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: 600;
     border-radius: 5px;
     display: flex;
     align-items: center;
 }
 
 .logo span {
-    font-size: 1.5rem;
-    padding: 10px;
+    padding: 5px 7px;
     background-color: #7843e9;
     transition: 0.7s ease-in-out;
     border-radius: 50%
@@ -46,6 +45,7 @@
 
 .logo span a{
     font-size: 1.5rem;
+    font-weight: 700;
     color: #fff;
 }
 
@@ -176,7 +176,7 @@ li a:hover::after{
 
 .home-hero-heading{
     font-size: 2rem;
-    font-weight: 600;
+    font-weight: 700;
     display: flex;
 }
 
@@ -207,7 +207,7 @@ li a:hover::after{
 .about-heading-main{
     display: block;
     font-size: 1.8rem;
-    font-weight: 800;
+    font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 3px;
     text-align: center;
@@ -247,7 +247,7 @@ li a:hover::after{
     border-radius: 5px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .about-content{
@@ -257,7 +257,7 @@ li a:hover::after{
 }
 
 .about-content-title{
-    font-weight: 800;
+    font-weight: 600;
     font-size: 1.5rem;
     margin-bottom: 2rem;
 }
