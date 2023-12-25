@@ -5,7 +5,7 @@
     list-style: none;
     text-decoration: none;
     color: #333333;
-    font-size: 12px;
+    font-size: 15px;
     font-family: 'Poppins';
 }
 
@@ -456,13 +456,13 @@ li a:hover::after{
     color: #fff;
     text-align: center;
     padding: 2rem 0;
-    font-size: 7px;
+    font-size: 10px;
 }
 
 .footer-base a{
     color: #fff;
     text-decoration: underline;
-    font-size: 8px;
+    font-size: 11px;
     font-weight: 700;
 }
 
