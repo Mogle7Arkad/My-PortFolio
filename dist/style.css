@@ -531,5 +531,32 @@ li a:hover::after{
         height: 100vh;
     }
 
+    .about-content{
+        grid-template-columns: repeat(1,minmax(0,1fr));
+        grid-gap: 1rem;
+    }
+
+    .about-heading{
+        text-align: center;
+    }
+
+    .about-heading-sub{
+        padding: 0 0;
+    }
+
+    .about-content-title{
+        text-align: center;
+    }
+
+    .about-content-details{
+        text-align: center;
+    }
+
+    .skills{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
 }
 
