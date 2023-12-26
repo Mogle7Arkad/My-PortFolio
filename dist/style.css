@@ -519,8 +519,6 @@ li a:hover::after{
     }
 
     .home-hero-img{
-        width: 300px;
-        height: 300px;
         display: flex;
         justify-content: center;
     }
