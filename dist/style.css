@@ -578,3 +578,16 @@ li a:hover::after{
     }
 }
 
+@media (max-width: 600px) {
+    
+    .home-hero{
+        height: 120vh;
+    }
+
+    .home-hero-img{
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+    }
+}
