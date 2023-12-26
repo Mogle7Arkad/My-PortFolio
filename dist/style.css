@@ -591,3 +591,10 @@ li a:hover::after{
         margin-bottom: 2rem;
     }
 }
+
+@media (max-width:300px) {
+    .home-hero-img img{
+        width: 250px;
+        height: 250px;
+    }
+}
