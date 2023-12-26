@@ -157,6 +157,7 @@ li a:hover::after{
     color: #fff;
     background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url(./assets/common-bg.svg);
     background-position: center;
+    padding: 1.5rem;
     height: 125vh;
     position: relative;
     padding-top: 80px;
@@ -171,6 +172,7 @@ li a:hover::after{
 }
 
 .home-hero-info{
+    text-align: center;
     padding-top: 2rem;
 }
 
@@ -185,8 +187,8 @@ li a:hover::after{
 }
 
 .home-hero-img img{
-    height: 305px;
-    width: 305px;
+    height: 310px;
+    width: 310px;
     border-radius: 50%;
 }
 
@@ -348,14 +350,14 @@ li a:hover::after{
 }
 
 .demo-btn{
-    border: 2px solid #7843e9;
+    border: 1px solid #7843e9;
     background: transparent;
     color: #7843e9;
 }
 
 .repo-btn:hover{
     font-weight: 600;
-    border: 2px solid #7843e9;
+    border: 1px solid #7843e9;
     background: transparent;
     color: #7843e9;
 }
@@ -410,7 +412,7 @@ li a:hover::after{
 
 .btn:hover{
     padding: 15px 20px;
-    border: 2px #7843e9 solid ;
+    border: 1px #7843e9 solid ;
     background: transparent;
     color: #7843e9;
 }
@@ -467,7 +469,10 @@ li a:hover::after{
 }
 
 @media(max-width: 992px){
-
+    .header{
+        padding: .5rem 2rem;
+    }
+    
     .nav-links{
         display: none;
     }
@@ -496,16 +501,98 @@ li a:hover::after{
         width: unset;
         border-left: 0px;
     }
+
     .dropdown-menu.open{
         border-top: 1px #eee solid;
+    }
+
+    .projects-content{
+        grid-template-columns: repeat(2,minmax(0,1fr))
+    }
+
+}
+
+@media (max-width: 600px) {
+    
+    .home-hero{
+        height: 120vh;
+    }
+
+    .home-hero-img{
+        display: flex;
+        justify-content: center;
     }
 }
 
 @media (max-width: 576px) {
+    .heaader{
+        padding: .5rem 2rem;
+    }
+    
     .dropdown-menu{
         left: 0rem;
         width: unset;
         border-left: 0px;
     }
 
+    .home-hero-heading{
+        text-align: center;
+    }
+
+    .home-hero{
+        height: 100vh;
+    }
+
+    .about-content{
+        grid-template-columns: repeat(1,minmax(0,1fr));
+        grid-gap: 1rem;
+    }
+
+    .about-heading{
+        text-align: center;
+    }
+
+    .about-heading-sub{
+        padding: 0 0;
+    }
+
+    .about-content-title{
+        text-align: center;
+    }
+
+    .about-content-details{
+        text-align: center;
+    }
+
+    .skills{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .projects-content{
+        grid-template-columns: repeat(1,minmax(0,1fr))
+    }
+
+    .footer-main{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+
+    .footer-header,
+    .footer-desc{
+        text-align: center;
+    }
+
+    .footer-left{
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width:300px) {
+    .home-hero-img img{
+        width: 250px;
+        height: 250px;
+    }
 }
