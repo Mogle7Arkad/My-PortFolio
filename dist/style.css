@@ -558,5 +558,9 @@ li a:hover::after{
         justify-content: center;
     }
 
+    .projects-content{
+        grid-template-columns: repeat(1,minmax(0,1fr))
+    }
+
 }
 
