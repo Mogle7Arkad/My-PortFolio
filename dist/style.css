@@ -157,6 +157,7 @@ li a:hover::after{
     color: #fff;
     background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url(./assets/common-bg.svg);
     background-position: center;
+    padding: 1.5rem;
     height: 125vh;
     position: relative;
     padding-top: 80px;
@@ -171,6 +172,7 @@ li a:hover::after{
 }
 
 .home-hero-info{
+    text-align: center;
     padding-top: 2rem;
 }
 
@@ -185,8 +187,8 @@ li a:hover::after{
 }
 
 .home-hero-img img{
-    height: 305px;
-    width: 305px;
+    height: 310px;
+    width: 310px;
     border-radius: 50%;
 }
 
@@ -348,14 +350,14 @@ li a:hover::after{
 }
 
 .demo-btn{
-    border: 2px solid #7843e9;
+    border: 1px solid #7843e9;
     background: transparent;
     color: #7843e9;
 }
 
 .repo-btn:hover{
     font-weight: 600;
-    border: 2px solid #7843e9;
+    border: 1px solid #7843e9;
     background: transparent;
     color: #7843e9;
 }
@@ -410,7 +412,7 @@ li a:hover::after{
 
 .btn:hover{
     padding: 15px 20px;
-    border: 2px #7843e9 solid ;
+    border: 1px #7843e9 solid ;
     background: transparent;
     color: #7843e9;
 }
@@ -468,6 +470,7 @@ li a:hover::after{
 
 @media(max-width: 992px){
 
+    
     .nav-links{
         display: none;
     }
@@ -499,9 +502,11 @@ li a:hover::after{
     .dropdown-menu.open{
         border-top: 1px #eee solid;
     }
+
 }
 
 @media (max-width: 576px) {
+
     .dropdown-menu{
         left: 0rem;
         width: unset;
@@ -509,3 +514,4 @@ li a:hover::after{
     }
 
 }
+
