@@ -523,5 +523,13 @@ li a:hover::after{
         border-left: 0px;
     }
 
+    .home-hero-heading{
+        text-align: center;
+    }
+
+    .home-hero{
+        height: 100vh;
+    }
+
 }
 
