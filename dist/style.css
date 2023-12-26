@@ -501,10 +501,10 @@ li a:hover::after{
         width: unset;
         border-left: 0px;
     }
+    
     .dropdown-menu.open{
         border-top: 1px #eee solid;
     }
-    
 
     .projects-content{
         grid-template-columns: repeat(2,minmax(0,1fr))
