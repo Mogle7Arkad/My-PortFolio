@@ -125,6 +125,10 @@ li a:hover::after{
     background-color: #333333;
 }
 
+.active{
+    color: #7843e9;
+}
+
 .dropdown-menu{
     position: absolute;
     margin-top: 1rem;
