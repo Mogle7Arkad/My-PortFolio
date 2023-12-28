@@ -7,3 +7,9 @@ function activeBtn(event) {
 
   event.target.classList.add('active');
 }
+
+function handleClick() {
+  for (let i = 0; i < navLinks.length; i += 1) {
+    navLinks[i].addEventListener('click', activeBtn);
+  }
+}
