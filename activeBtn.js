@@ -13,3 +13,5 @@ function handleClick() {
     navLinks[i].addEventListener('click', activeBtn);
   }
 }
+
+export default handleClick;
