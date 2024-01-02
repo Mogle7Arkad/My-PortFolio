@@ -292,15 +292,21 @@ li a:hover::after{
 
 .projects-content{
     display: grid;
-    grid-template-columns: repeat(3,minmax(0, 1fr));
+    grid-template-columns: repeat(2,minmax(0, 1fr));
     gap: 1.5rem;
 }
 
 .projects-row{
+    display: flex;
+    justify-content: center;
     border-radius: 5px;
-    overflow: hidden;
+    padding: 4rem;
+    background: linear-gradient(135deg, #7843e9, #5b54, #5b548a);
+}
+
+.img-wrapper{
     position: relative;
-    height: 250px;
+    overflow: hidden;
 }
 
 .project-row-img{
@@ -367,7 +373,7 @@ li a:hover::after{
     padding: 3px 7px;
 }
 
-.projects-row:hover .project-row-content{
+.img-wrapper:hover .project-row-content{
     left: 0;
 }
 
