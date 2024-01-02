@@ -10,7 +10,7 @@
 }
 
 .header{
-    position: fixed;
+    position: sticky;
     background-color: #fff;
     top: 0;
     display: flex;
@@ -18,7 +18,7 @@
     width: 100%;
     height: 60px;
     z-index: 1000;
-    box-shadow: 0px 0px 10px black;
+    box-shadow: 0px 0px 1px black;
 } 
 
 .navbar-container{
@@ -26,6 +26,7 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    position: relative;
 }
 
 .navbar-container .logo{
@@ -126,7 +127,7 @@ li a:hover::after{
 }
 
 .active{
-    color: #7843e9;
+    color: #a88ce5;
 }
 
 .dropdown-menu{
@@ -161,39 +162,32 @@ li a:hover::after{
     color: #fff;
     background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url(./assets/common-bg.svg);
     background-position: center;
-    padding: 1.5rem;
-    height: 125vh;
+    padding: 5rem 0;
+    height: 100vh;
     position: relative;
-    padding-top: 80px;
 }
 
 .home-hero-content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 4rem;
-    letter-spacing: 3px;
-}
-
-.home-hero-info{
     text-align: center;
-    padding-top: 2rem;
+    letter-spacing: 3px;
 }
 
 .home-hero-heading{
     font-size: 2rem;
     font-weight: 700;
-    display: flex;
 }
 
 .home-hero-img{
+    display: flex;
+    justify-content: center;
     padding-top: 3rem;
 }
 
 .home-hero-img img{
-    height: 310px;
-    width: 310px;
+    height: 350px;
+    width: 350px;
     border-radius: 50%;
+    position: relative;
 }
 
 .about{
@@ -513,13 +507,12 @@ li a:hover::after{
     .projects-content{
         grid-template-columns: repeat(2,minmax(0,1fr))
     }
-
 }
 
 @media (max-width: 600px) {
     
     .home-hero{
-        height: 120vh;
+        height: 100vh;
     }
 
     .home-hero-img{
@@ -544,7 +537,7 @@ li a:hover::after{
     }
 
     .home-hero{
-        height: 100vh;
+        /* height: 100vh; */
     }
 
     .about-content{
@@ -590,7 +583,8 @@ li a:hover::after{
     }
 
     .footer-left{
-        margin-bottom: 2rem;
+        margin-top: 2rem;
+        order: 2;
     }
 }
 
