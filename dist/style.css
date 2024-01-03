@@ -551,6 +551,15 @@ li a:hover::after{
         display: flex;
         justify-content: center;
     }
+
+    .project-row-img{
+        height: auto;
+    }
+
+    .project-row-content{
+        position: relative;
+        left: 0%;
+    }
 }
 
 @media (max-width: 576px) {
@@ -567,7 +576,7 @@ li a:hover::after{
     .home-hero-heading{
         text-align: center;
     }
-
+    
     .about-content{
         grid-template-columns: repeat(1,minmax(0,1fr));
         grid-gap: 1rem;
