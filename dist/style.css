@@ -531,6 +531,14 @@ li a:hover::after{
     .projects-content{
         grid-template-columns: repeat(2,minmax(0,1fr))
     }
+
+    .projects-row{
+        padding: 1rem;
+    }
+
+    .project-row-content{
+        padding: .5rem;
+    }
 }
 
 @media (max-width: 768px) {
