@@ -5,7 +5,7 @@
     list-style: none;
     text-decoration: none;
     color: #333333;
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'Poppins';
 }
 
@@ -173,7 +173,7 @@ li a:hover::after{
 }
 
 .home-hero-heading{
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: 700;
 }
 
@@ -412,7 +412,6 @@ li a:hover::after{
     text-align: center;
     color: #555;
     font-size: 1rem;
-    font-weight: 500;
     padding: 0 4rem;
     max-width: 75rem;
     margin: auto;
@@ -515,6 +514,10 @@ li a:hover::after{
 
     .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .home-hero-heading{
+        padding: 0 1rem;
     }
 
     .dropdown-menu{
