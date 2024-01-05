@@ -418,6 +418,16 @@ li a:hover::after{
     line-height: 1.6;
 }
 
+.contact-me{
+    border: 1px solid black;
+    margin-bottom: 4rem;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
 .btn-wrapper{
     width: 100%;
     text-align: center;
