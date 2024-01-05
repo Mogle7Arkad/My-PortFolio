@@ -425,6 +425,7 @@ li a:hover::after{
     display: flex;
     justify-content: center;
     align-items: center;
+    display: none;
 }
 
 .contact-link{
@@ -437,6 +438,11 @@ li a:hover::after{
 
 .contact-links-wrapper a{
     line-height: 3rem;
+}
+
+.contact-icon{
+width: 30px;
+height: 30px;
 }
 
 .btn-wrapper{
