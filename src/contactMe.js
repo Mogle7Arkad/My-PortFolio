@@ -7,8 +7,10 @@ function displayContactLinks() {
     e.preventDefault();
     if (button.innerHTML === 'CONTACT ME') {
       button.innerHTML = 'CLOSE';
+      contactLink.style.display = 'block';
     } else {
       button.innerHTML = 'CONTACT ME';
+      contactLink.style.display = 'none';
     }
   });
 }
