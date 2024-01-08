@@ -1,5 +1,6 @@
 const hamburger = document.querySelector('.hamburger');
 const dropDownMenu = document.querySelector('.dropdown-menu');
+const navLink = document.querySelector('.nav-link');
 
 function activateHamburger() {
   hamburger.addEventListener('click', () => {
