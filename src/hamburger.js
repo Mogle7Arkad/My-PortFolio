@@ -10,7 +10,12 @@ function activateHamburger() {
 }
 
 function closeDropDown() {
-
+  document.addEventListener('click', (e) => {
+    if (!hamburger.contains(e.target) && !navLink.contains(e.target)) {
+      dropDownMenu.classList.remove('open');
+      hamburger.classList.remove('active');
+    }
+  });
 }
 
 export { activateHamburger, closeDropDown };
