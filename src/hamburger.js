@@ -9,4 +9,8 @@ function activateHamburger() {
   });
 }
 
-export default activateHamburger;
+function closeDropDown() {
+
+}
+
+export { activateHamburger, closeDropDown };
