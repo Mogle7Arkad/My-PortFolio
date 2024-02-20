@@ -456,6 +456,11 @@ li a:hover::after{
     height: 30px;
 }
 
+.contact-icon-p{
+    font-size: 16px;
+    font-weight: 600;
+}
+
 .footer{
     padding: 0 4rem;
     background-color: #111;
