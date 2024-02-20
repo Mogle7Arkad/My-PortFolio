@@ -6,4 +6,3 @@ activateHamburger();
 closeDropDown();
 handleClick();
 scroll();
-displayContactLinks();
