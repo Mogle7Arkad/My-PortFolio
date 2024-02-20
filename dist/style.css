@@ -446,8 +446,12 @@ li a:hover::after{
     margin-bottom: 1rem;
     transition: 0.3s;
 }
+.contLink:hover{
+    transform: scale(.95);
+}
 
 .contact-icon{
+    align-items: center;
     width: 30px;
     height: 30px;
 }
