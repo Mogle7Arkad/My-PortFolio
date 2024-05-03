@@ -162,7 +162,7 @@ li a:hover::after{
     color: #fff;
     background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url(./assets/common-bg.svg);
     background-position: center;
-    padding: 5rem 0;
+    /* padding: 5rem 0; */
     height: 100vh;
     position: relative;
 }
