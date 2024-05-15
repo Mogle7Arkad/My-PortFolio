@@ -162,7 +162,7 @@ li a:hover::after{
     color: #fff;
     background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url(./assets/common-bg.svg);
     background-position: center;
-    /* padding: 5rem 0; */
+    padding: 3rem 0;
     height: 100vh;
     position: relative;
 }
@@ -532,7 +532,7 @@ li a:hover::after{
     }
 
     .hamburger.active .bar:nth-child(2) {
-        opacity: 0;;
+        opacity: 0;
     }
 
     .hamburger.active .bar:nth-child(3) {
